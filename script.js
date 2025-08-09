@@ -6,7 +6,7 @@ let score = 0;
 function setup() {
   createCanvas(400, 400);
 
-  // Yellow rectangle catcher box
+  // Brown rectangle catcher box
   catcher = new Sprite(200, 350, 80, 20);
   catcher.color = color(139, 69, 19);
   catcher.rotationLock = true;
